@@ -1,0 +1,113 @@
+body{
+  height: 100vh;
+  background-color: #BE2ED6;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  place-content: center;
+}
+
+a{
+  color: #d768eb;
+  text-decoration: none;
+}
+
+span{
+  font-size: 0.9375rem;
+
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+button, input{
+  border-radius: 4px;
+}
+
+input{
+  padding: 10px 55px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+}
+
+button{
+  border: 1px solid transparent;
+  margin: 10px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+label{
+  margin-right: 20px;
+  font-size: 0.9375rem;
+}
+
+.container{
+  background-color: #FFFFFF;
+  padding: 25px;
+  border-radius: 4px;
+  max-width: 280px;
+  display: grid;
+  place-items: center;
+}
+
+.formulario{
+  max-width: 280px;
+}
+
+.botao{
+  max-width: 280px;
+  padding: 10px 120px;
+  background-color: #BE2ED6;
+  color: #FFFFFF;
+}
+
+.redes-sociais{
+  padding: 0;
+}
+
+.redes-sociais button{
+  color: #FFFFFF;
+}
+
+.facebook{
+  height: 40px;
+  width: 135px;
+  background-color: #1B3E78;
+  margin-right: 5px;
+}
+
+.twitter{
+  height: 40px;
+  width: 135px;
+  background-color: #00A7E7;
+}
+
+.cadastrar{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.usuario{
+  position: absolute;
+  left: 0;
+  padding-left: 20px;
+  background: transparent;
+  top: 1px;
+}
+
+.senha{
+  position: absolute;
+  left: 0;
+  padding-left: 20px ;
+  background: transparent;
+  bottom: 6px;
+}
+
+.campo-usuario{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
